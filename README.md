@@ -8,7 +8,7 @@ This project provides a command-line interface (CLI) tool to perform various ope
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-username/your-repo.git
+    git clone https://github.com/cyberkillerdev/PC-Cleaner
     cd your-repo
     ```
 2. Install the required packages:
@@ -17,7 +17,7 @@ This project provides a command-line interface (CLI) tool to perform various ope
     ```
 
 ## Usage | Users
-1. Install Scanner.exe from https://github.com/your-username/your-repo/releases.
+1. Install Scanner.exe from https://github.com/cyberkillerdev/PC-Cleaner/releases.
 2. Run Scanner.exe.
 3. Read Instructions on The Availible Commands Bellow
 
