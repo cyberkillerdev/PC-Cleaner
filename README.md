@@ -4,30 +4,14 @@
 
 This project provides a command-line interface (CLI) tool to perform various operations on your drives, such as scanning directories, viewing scanned data, and cleaning temporary files. The tool is implemented in Python and leverages the `rich` library for a better user interface.
 
-## Installation
+## Features
 
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/cyberkillerdev/PC-Cleaner
-    cd your-repo
-    ```
-2. Install the required packages:
-    ```sh
-    pip install rich pyuac msgpack
-    ```
+- **Scan Drives**: Scan a specified path or all available drives for data.
+- **View Scan Data**: View data from scanned drives with options to limit by line count or file size.
+- **Clean Temp Files**: Clean temporary files from the system.
 
-## Usage | Users
-1. Install Scanner.exe from https://github.com/cyberkillerdev/PC-Cleaner/releases.
-2. Run Scanner.exe.
-3. Read Instructions on The Availible Commands Bellow
-
-## Usage | Developers
-
-Run the CLI tool:
-```sh
-python cli.py
-```
-
+## Preview Commands
+![image](https://github.com/cyberkillerdev/PC-Cleaner/assets/72754858/c4693317-bdc4-4ac0-93d7-c3b049c5e0fd)
 ### Available Commands
 
 1. **Scan Drives**: 
@@ -63,11 +47,29 @@ python cli.py
     $ 3
     ```
 
-## Features
+## Installation
 
-- **Scan Drives**: Scan a specified path or all available drives for data.
-- **View Scan Data**: View data from scanned drives with options to limit by line count or file size.
-- **Clean Temp Files**: Clean temporary files from the system.
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/cyberkillerdev/PC-Cleaner
+    cd PC-Cleaner
+    ```
+2. Install the required packages:
+    ```sh
+    pip install rich pyuac msgpack
+    ```
+
+## Usage | Users
+1. Install Scanner.exe from https://github.com/cyberkillerdev/PC-Cleaner/releases.
+2. Run Scanner.exe.
+3. Read Instructions on The Availible Commands Bellow
+
+## Usage | Developers
+
+Run the CLI tool:
+```sh
+python cli.py
+```
 
 ## Requirements For Developers
 
