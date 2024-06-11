@@ -21,7 +21,7 @@ This project provides a command-line interface (CLI) tool to perform various ope
 
 2. **View Scanned Data**:
     - Command: `2 Drive/CustomPath [--max-line LINE LIMIT] [--size-threshold SIZE LIMIT]`
-    - Example: `2 C --max-line 100` or `2 C --size-threshold 100MB`
+    - Example: `2 C --max-line 100` or `2 C --size-threshold 100 MB`**(Make Sure The Seperation Between The Unit and Type Size.)**
     - Description: Views data from the specified drive or path with optional limits on line count or file size.
 
 3. **Clean Temp Files**:
